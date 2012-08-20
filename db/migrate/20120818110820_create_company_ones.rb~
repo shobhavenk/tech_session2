@@ -1,0 +1,11 @@
+class CreateCompanyOnes < ActiveRecord::Migration
+  def change
+    create_table :company_ones do |t|
+      t.string :name
+      t.string :address
+      t.integer :phone
+
+      t.timestamps
+    end
+  end
+end
